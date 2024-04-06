@@ -19,3 +19,4 @@ void main(int argc, char **argv) {
         isPrime((atomic_int)0);
     }
 }
+
