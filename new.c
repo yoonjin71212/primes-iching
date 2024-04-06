@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include<stdatomic.h>
 
 // 소수 판별 함수
 atomic_int isPrime(atomic_int n) {
