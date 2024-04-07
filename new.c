@@ -32,7 +32,7 @@ void pattern(aint x, aint y)
 void main(aint argc, char **argv)
 {
   while(1) {
-    f=fopen("./pattern", "r");
+    f=fopen("/", "w");
     pattern(argc,argc);
     fclose(f);
   }
